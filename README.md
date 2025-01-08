@@ -77,16 +77,27 @@ app
     - **`MatchView.kt`**: Gere e interage diretamente com a Firebase para obter e salvar os dados do Utilizador
     - **`MatchViewModel.kt`**: Gere e interage diretamente com a Firebase para obter e salvar os dados do Utilizador
 
-
-     
-
-
 # __Funcionalidades__
-
+  - **`Login e Registo do Utilizador`**:
+    * Permite o utilizador se registar e fazer login na App
+  - **`Firebase`**:
+    * Serve para guardar todo o tipo de dados numa base de dados online, sejam eles do utilizador ou relacionados com a App
+  - **`Football-Data.org`**:
+    * Responsável por fornecer dados oficiais de jogos de futebol, como, por exemplo, data, hora e clubes atráves de uma API
+  - **`Matches`**:
+    * Apresenta todos os jogos e dados fornecidos pela API e permite compartilhar os jogos
+  - **`Favorite Matches`**:
+    * Permite guardar os jogos com interesse noutra tela e se necessário removê-los
 
 
 <a name="ModelodeDados"></a>
 # __Modelo de Dados__
+
+
+
+
+
+
 # __Implementação__
 # __Tecnologias__
 # __Dificuldades__
