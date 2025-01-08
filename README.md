@@ -9,6 +9,7 @@
 1. [__Introdução__](#Introdução)
 2. [__Estrutura do Projeto__](#Estrutura)
    * [__Organização das Pastas__](#Pastas)
+3. [__Desenhos, esquemas e protótipos da aplicação__](#Desenhos)
 4. [__Funcionalidades__](#Funcionalidades)
 5. [__Modelo de Dados__](#ModelodeDados)
 6. [__Implementação__](#Implementação)
@@ -19,6 +20,11 @@
 # __Introdução__
 
 Este trabalho tem como objetivo principal o desenvolvimento de uma aplicação em kotlin, através do Android Studio. A ideia principal seria criar uma aplicação de futebol conectada diretamente a uma firebase e uma API de futebol. A firebase seria necessária para um sistema básico de login que permitiria os utilizadores criar uma conta na aplicação e acompanhar todos os jogos e clubes. A API seria responsável pelo fornecimento de todos os jogos, sendo eles em direto, já realizados ou por realizar. 
+
+
+<p align="center">
+ <img src="https://cdn.discordapp.com/attachments/1162876754462003200/1326366131048681544/image.png?ex=677f2a38&is=677dd8b8&hm=1e40bc97dde1de4f69c8ef4304158d2902b27dc348752c5b3a5a382778f76cd8&"  alt="Pong" width=200>
+</p>
 
 # __Estrutura do Projeto__
 
@@ -84,6 +90,8 @@ app
     * Serve para guardar todo o tipo de dados numa base de dados online, sejam eles do utilizador ou relacionados com a App
   - **`Football-Data.org`**:
     * Responsável por fornecer dados oficiais de jogos de futebol, como, por exemplo, data, hora e clubes atráves de uma API
+  - **`Profile`**:
+    * O profile permite-nos gerir o perfil do utilizador bem como, a funcionalidade de logout
   - **`Matches`**:
     * Apresenta todos os jogos e dados fornecidos pela API e permite compartilhar os jogos
   - **`Favorite Matches`**:
@@ -93,12 +101,23 @@ app
 <a name="ModelodeDados"></a>
 # __Modelo de Dados__
 
+  - **`Match`**:
+    * id (String)
+    * name (String)
+    * date (String)
+    * league (String)
+    * timestamp (Long) 
 
+  - **`User`**:
+    * name (String)
+    * email (String) 
+    * docId (String)
 
-
-
-
+<a name="Implementaçãos"></a>
 # __Implementação__
+
+
+
 # __Tecnologias__
 # __Dificuldades__
 
