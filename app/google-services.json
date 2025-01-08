@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115990386449",
+    "project_id": "trabalhofinal-eb522",
+    "storage_bucket": "trabalhofinal-eb522.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115990386449:android:2fe6279a92216e26d21eb0",
+        "android_client_info": {
+          "package_name": "com.example.trabalhofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYDRfsDYUk8TnP7pb1hFY2s6gRIJg0KNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
