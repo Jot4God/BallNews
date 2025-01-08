@@ -136,7 +136,10 @@ app
 # __Dificuldades__
 
   - Configuração da Firebase para o registo do utilizador;
-  - 
+  - Configuração da API para a aplicação;
+  - Conseguir ligar;
+  - Aprendizagem do padrão MVVM e aplicaçaão pratica;
+  - Dificuldade em evoluir a interface das telas da aplicaçao;
 
 # __Conclusão:__
-Em suma, o desenvolvimento desta aplicação de futebol foi essencial para
+Em suma, o desenvolvimento desta aplicação de futebol foi desafiadora mas muito interessante de se elaborar, acho que este projeto evoluiu muito o meu conhecimente de kotlin e acho muito importante para esta disciplina e curso.
