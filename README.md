@@ -119,6 +119,11 @@ app
 
 <a name="Implementaçãos"></a>
 # __Implementação__
+ - Authentication: Gere login e registro numa firebase
+ - Firestore: Base de dados em tempo real para armazenar dados
+ - Model: Responsavel pela gestão dos dados
+ - ViewModel: Comunicação entre Model e View.
+ - View: Interface com o utilizador, implementada em XML e Kotlin
 
 <a name="Tecnologias"></a>
 # __Tecnologias__
