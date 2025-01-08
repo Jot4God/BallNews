@@ -26,6 +26,7 @@ Este trabalho tem como objetivo principal o desenvolvimento de uma aplicação e
  <img src="https://cdn.discordapp.com/attachments/1162876754462003200/1326366131048681544/image.png?ex=677f2a38&is=677dd8b8&hm=1e40bc97dde1de4f69c8ef4304158d2902b27dc348752c5b3a5a382778f76cd8&"  alt="Pong" width=200>
 </p>
 
+<a name="Estrutura"></a>
 # __Estrutura do Projeto__
 
 ```plaintext
@@ -58,6 +59,8 @@ app
 │               └── Type.kt
 └── MainActivity.kt
 ```
+
+<a name="Pastas"></a>
 ## __Estrutura das Pastas__
 
 * __Models:__
@@ -83,6 +86,7 @@ app
     - **`MatchView.kt`**: Gere e interage diretamente com a Firebase para obter e salvar os dados do Utilizador
     - **`MatchViewModel.kt`**: Gere e interage diretamente com a Firebase para obter e salvar os dados do Utilizador
 
+<a name="Funcionalidades"></a>
 # __Funcionalidades__
   - **`Login e Registo do Utilizador`**:
     * Permite o utilizador se registar e fazer login na App
