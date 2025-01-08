@@ -9,14 +9,14 @@
 1. [__Introdução__](#Introdução)
 2. [__Estrutura do Projeto__](#Estrutura)
    * [__Organização das Pastas__](#Pastas)
-3. [__Desenhos, esquemas e protótipos da aplicação__](#Desenhos)
-4. [__Funcionalidades__](#Funcionalidades)
-5. [__Modelo de Dados__](#ModelodeDados)
-6. [__Implementação__](#Implementação)
-7. [__Tecnologias__](#Tecnologias)
-8. [__Dificuldades__](#Dificuldades)
-9. [__Conclusão__](#Conclusão)
+3. [__Funcionalidades__](#Funcionalidades)
+4. [__Modelo de Dados__](#ModelodeDados)
+5. [__Implementação__](#Implementação)
+6. [__Tecnologias__](#Tecnologias)
+7. [__Dificuldades__](#Dificuldades)
+8. [__Conclusão__](#Conclusão)
 
+<a name="Introdução"></a>
 # __Introdução__
 
 Este trabalho tem como objetivo principal o desenvolvimento de uma aplicação em kotlin, através do Android Studio. A ideia principal seria criar uma aplicação de futebol conectada diretamente a uma firebase e uma API de futebol. A firebase seria necessária para um sistema básico de login que permitiria os utilizadores criar uma conta na aplicação e acompanhar todos os jogos e clubes. A API seria responsável pelo fornecimento de todos os jogos, sendo eles em direto, já realizados ou por realizar. 
@@ -120,11 +120,23 @@ app
 <a name="Implementaçãos"></a>
 # __Implementação__
 
-
-
+<a name="Tecnologias"></a>
 # __Tecnologias__
+
+  - **`Firebase`**:
+    * Permite guardar dados numa base de dados online
+  - **`API`**:
+    * Responsável por fornecer dados de qaulquer de tópico sejam eles oficiais, ou falsos
+  - **`MVVM`**:
+    - **`Model`**: Dados e Lógica da App
+    - **`View`**: Apresentam os dados ao utilizador e recebe o seu feedback
+    - **`ViewModel`**: Contém a lógica de apresentação e é responsável por fornecer dados formatados para a View
+
+<a name="Dificuldades"></a>
 # __Dificuldades__
 
+  - Configuração da Firebase para o registo do utilizador;
+  - 
 
 # __Conclusão:__
 Em suma, o desenvolvimento desta aplicação de futebol foi essencial para
