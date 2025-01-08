@@ -1,4 +1,4 @@
-# TrabalhoFinal
+# Ball News
 
 #### Aplicação Futebolística em Kotlin
 
